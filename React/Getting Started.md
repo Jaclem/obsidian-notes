@@ -159,3 +159,210 @@ function Comment(props) {
   );
 }
 ```
+
+# New Notes
+https://beta.reactjs.org/learn#conditional-rendering
+React components are JavaScript functions that return markup:
+
+```javascript
+function MyButton() {  
+	return (    
+		<button>I'm a button</button>  
+	);
+}
+```
+
+Now that you’ve declared `MyButton`, you can nest it into another component:
+
+```javascript
+export default function MyApp() {  
+	return (    
+		<div>      
+			<h1>Welcome to my app</h1>      
+			<MyButton />    
+		</div>  
+	);
+}
+```
+
+We can use regular JavaScript in our file before our initial component so that we can easily add what we want to be rendered by the functionial component that is being exported
+
+```javascript
+const user = {
+  name: 'Hedy Lamarr',
+  imageUrl: 'https://i.imgur.com/yXOvdOSs.jpg',
+  imageSize: 90,
+};
+
+export default function Profile() {
+  return (
+    <>
+      <h1>{user.name}</h1>
+      <img
+        className="avatar"
+        src={user.imageUrl}
+        alt={'Photo of ' + user.name}
+        style={{
+          width: user.imageSize,
+          height: user.imageSize
+        }}
+      />
+    </>
+  );
+}
+```
+
+Here's an example of using an if statement to update the page with a certain component if the user is logged in or not
+
+```javascript
+let content;  
+
+if (isLoggedIn) {  
+	content = <AdminPanel />;  
+} else {  
+	content = <LoginForm />;  
+}  
+
+return (  
+	<div>  
+		{content}  
+	</div>  
+);
+```
+
+To add to this we can also use more complex pieces of logic and return a specific element that contains our new information 
+
+In this example we're creating a new array with .map() and creating `<li>` tags to capture our `product.title` and then injecting them inside of a `<ul>` tag that is returning all `<li>` items
+
+```javascript
+const products = [  
+	{ title: 'Cabbage', id: 1 },  
+	{ title: 'Garlic', id: 2 },  
+	{ title: 'Apple', id: 3 },  
+];
+
+const listItems = products.map(product =>  
+	<li key={product.id}>  
+		{product.title}  
+	</li>  
+);  
+
+  
+return (  
+	<ul>{listItems}</ul>  
+);
+```
+
+If we want to add styles to the element with JavaScript we can put it in `style={{}}` like seen below
+
+```javascript
+  style={{
+	color: product.isFruit ? 'magenta' : 'darkgreen'
+  }}
+```
+
+## Responding to events
+
+You can respond to events by declaring _event handler_ functions inside your components:
+
+```javascript
+function MyButton() {  
+	function handleClick() {    
+	alert('You clicked me!');  
+}  
+
+return (    
+	<button onClick={handleClick}>      
+		Click me    
+	</button>  
+	);
+}
+```
+
+# State
+
+The state is a built-in React object that is used to contain data or information about the component.
+
+The change in state can happen as a response to user action or system-generated events and these changes determine the behavior of the component and how it will render.
+
+Often, we’ll want our component to “remember” some information and display it.
+
+Below is a simple program to count the number of times a button is clicked.
+
+```javascript
+import { useState } from 'react';
+
+function MyButton() {  
+	const [count, setCount] = useState(0);
+	
+	function handleClick() {  
+		setCount(count + 1);  
+	}  
+	
+
+return (  
+	<button onClick={handleClick}>  
+		Clicked {count} times  
+	</button>  
+	);  
+}
+```
+
+If you render the same component multiple times, each will get its own state. Try clicking each button separately:
+
+```javascript
+  return (
+    <div>
+      <h1>Counters that update separately</h1>
+      <MyButton />
+      <MyButton />
+    </div>
+  );
+```
+
+This translates to showing two different buttons and when one is clicked it shows:
+Clicked 1 Times
+Clicked 0 Times
+
+# Hooks
+
+Hooks are restricted functions that consist of a `use` keyword infront of the method. `useState` is a built-in Hook provided by React
+
+Hooks can only be used at the highest level of your function. They must be the first thing you use.
+
+# Props and passing information to other components
+
+Let's say we wanted the same button we created earlier to update both buttons when either button is clicked 
+For example if the button on top or bottom is clicked both buttons will display the count like so
+
+Clicked 1 Times
+Clicked 1 Times
+
+```javascript
+import { useState } from 'react';
+
+export default function MyApp() {
+  const [count, setCount] = useState(0);
+
+  function handleClick() {
+    setCount(count + 1);
+  }
+
+// We put the count and the onClick function directly in the MyButton call
+  return (
+    <div>
+      <h1>Counters that update together</h1>
+      <MyButton count={count} onClick={handleClick} />
+      <MyButton count={count} onClick={handleClick} />
+    </div>
+  );
+}
+// We are passing props to deconstructed Props to MyButton
+function MyButton({ count, onClick }) {
+  return (
+    <button onClick={onClick}>
+      Clicked {count} times
+    </button>
+  );
+}
+```
