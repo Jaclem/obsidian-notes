@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "cafde6691d47682a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Allow Client to Edit Website.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React/Getting Started.md",
+                "file": "Allow Client to Edit Website.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React/Getting Started.md",
+                "file": "Allow Client to Edit Website.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React/Getting Started.md"
+                "file": "Allow Client to Edit Website.md"
               }
             }
           }
@@ -146,11 +159,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c51f8470086f598b",
+  "active": "cafde6691d47682a",
   "lastOpenFiles": [
     "React/Getting Started.md",
     "React/Removing Boilerplate Files.md",
-    "Untitled.md",
+    "Allow Client to Edit Website.md",
     "React/render().md",
     "React/Defining Components.md",
     "React/Understanding create-react-app.md",
