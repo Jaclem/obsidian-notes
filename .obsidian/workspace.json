@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6fbe5792d4bbd73d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "React/Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React/Getting Started.md",
+                "file": "React/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React/Getting Started.md",
+                "file": "React/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React/Getting Started.md"
+                "file": "React/Untitled.md"
               }
             }
           }
@@ -146,7 +159,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c51f8470086f598b",
+  "active": "6fbe5792d4bbd73d",
   "lastOpenFiles": [
     "React/Getting Started.md",
     "React/Removing Boilerplate Files.md",
