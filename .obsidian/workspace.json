@@ -20,31 +20,19 @@
             }
           },
           {
-            "id": "6fbe5792d4bbd73d",
+            "id": "cafde6691d47682a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/Untitled.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6855226fae899c75",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "React/Untitled.md",
+                "file": "React/Understanding React.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React/Untitled.md",
+                "file": "React/Understanding React.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React/Untitled.md",
+                "file": "React/Understanding React.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React/Untitled.md"
+                "file": "React/Understanding React.md"
               }
             }
           }
@@ -171,17 +159,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6855226fae899c75",
+  "active": "f4eb293485f3d943",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Allow Client to Edit Website.md",
-    "React/Untitled.md",
     "React/Getting Started.md",
     "React/Removing Boilerplate Files.md",
-    "Untitled.md",
     "React/render().md",
     "React/Defining Components.md",
     "React/Understanding create-react-app.md",
-    "git/git commands.md"
+    "git/git commands.md",
+    "JavaScript/Loops.md",
+    "JavaScript/Constraint Validation.md",
+    "JavaScript/DOM Manipulation.md"
   ]
 }
