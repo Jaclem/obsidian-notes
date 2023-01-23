@@ -159,17 +159,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f4eb293485f3d943",
+  "active": "cafde6691d47682a",
   "lastOpenFiles": [
+    "Images/Pasted image 20230122191415.png",
+    "Images/Pasted image 20230122191132.png",
+    "Images/Pasted image 20230122190926.png",
+    "Images/Pasted image 20230122190514.png",
+    "Images/Pasted image 20230122185913.png",
+    "Images/Pasted image 20230122185515.png",
+    "Images/Pasted image 20230122185419.png",
+    "React/Understanding React.md",
     "Allow Client to Edit Website.md",
-    "React/Getting Started.md",
-    "React/Removing Boilerplate Files.md",
-    "React/render().md",
-    "React/Defining Components.md",
-    "React/Understanding create-react-app.md",
-    "git/git commands.md",
-    "JavaScript/Loops.md",
-    "JavaScript/Constraint Validation.md",
-    "JavaScript/DOM Manipulation.md"
+    "React/Getting Started.md"
   ]
 }
