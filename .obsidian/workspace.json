@@ -4,23 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "3af28f6bc95667b7",
+        "id": "408be532ee0fe990",
         "type": "tabs",
         "children": [
           {
-            "id": "c51f8470086f598b",
+            "id": "07bb62daa56d470b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/Getting Started.md",
+                "file": "React/Understanding React.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "cafde6691d47682a",
+            "id": "19f6e39747a8fc27",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -159,17 +159,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cafde6691d47682a",
+  "active": "19f6e39747a8fc27",
   "lastOpenFiles": [
-    "Images/Pasted image 20230122191415.png",
-    "Images/Pasted image 20230122191132.png",
-    "Images/Pasted image 20230122190926.png",
-    "Images/Pasted image 20230122190514.png",
-    "Images/Pasted image 20230122185913.png",
-    "Images/Pasted image 20230122185515.png",
-    "Images/Pasted image 20230122185419.png",
+    "JavaScript/Arrays/Array Methods.md",
+    "React/Lifting up state.md",
+    "React/Getting Started.md",
     "React/Understanding React.md",
-    "Allow Client to Edit Website.md",
-    "React/Getting Started.md"
+    "Images/Pasted image 20230123103906.png",
+    "Images/Pasted image 20230123093205.png",
+    "React/Understanding create-react-app.md",
+    "React/Untitled.md",
+    "conflict-files-obsidian-git.md",
+    "Allow Client to Edit Website.md"
   ]
 }

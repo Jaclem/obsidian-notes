@@ -190,3 +190,63 @@ const fruitsCopy2 = Array.from(fruits);
 const fruitsCopy3 = fruits.slice();
 // ["Strawberry", "Mango"]
 ```
+
+# Written by chatGPT
+1.  `.forEach()`: This method allows you to iterate through each element in an array and perform a specific action. It takes a callback function as an argument, which is called for each element in the array. Here's an example of how to use `.forEach()`:
+
+```javascript
+let numbers = [1, 2, 3, 4, 5];
+
+numbers.forEach(function(number) {
+  console.log(number);
+});
+
+```
+
+2.  `.map()`: This method allows you to create a new array from an existing one, by applying a specific function to each element. It also takes a callback function as an argument, which is called for each element in the array. The function should return a new value for each element. Here's an example of how to use `.map()`:
+
+```javascript
+let numbers = [1, 2, 3, 4, 5];
+
+let doubledNumbers = numbers.map(function(number) {
+  return number * 2;
+});
+
+console.log(doubledNumbers); // [2, 4, 6, 8, 10]
+```
+
+3.  `.filter()`: This method allows you to create a new array that only includes elements that pass a specific test. It takes a callback function as an argument, which is called for each element in the array. The function should return a boolean value (true or false) for each element. Here's an example of how to use `.filter()`:
+
+```javascript
+let numbers = [1, 2, 3, 4, 5];
+
+let evenNumbers = numbers.filter(function(number) {
+  return number % 2 === 0;
+});
+
+console.log(evenNumbers); // [2, 4]
+```
+
+4.  `.reduce()`: This method allows you to iterate through an array and reduce it to a single value. It takes two arguments: a callback function and an initial value. The callback function takes two arguments: an accumulator and the current element. Here's an example of how to use `.reduce()`:
+
+```javascript
+let numbers = [1, 2, 3, 4, 5];
+
+let sum = numbers.reduce(function(accumulator, current) {
+  return accumulator + current;
+}, 0);
+
+console.log(sum); // 15
+```
+
+5.  `.sort()`: This method allows you to sort the elements of an array in ascending or descending order. It takes an optional compare function as an argument that determines the sort order. Here's an example of how to use `.sort()`:
+
+```javascript
+let numbers = [1, 5, 2, 4, 3];
+
+numbers.sort(function(a, b) {
+  return a - b;
+});
+
+console.log(numbers); // [1, 2, 3, 4, 5]
+```

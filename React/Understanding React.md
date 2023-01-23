@@ -113,3 +113,83 @@ Next we can add in our logic to use `setValue('X')` to set the value of the inne
 
 ![[Pasted image 20230122191132.png]]
 
+# Lifting up state
+[[Lifting up state]]
+Lifting state into a is the processes of using state in the parent component instead of the child component (The parent component is the one that returns what you see on screen)
+
+the best approach is to store the game’s state in the parent `Board` component instead of in each `Square`. The `Board` component can tell each `Square` what to display by passing a prop
+
+**To collect data from multiple children, or to have two child components communicate with each other, declare the shared state in their parent component instead. The parent component can pass that state back down to the children via props.**
+
+What we'll do is add the state to the `Board()` component with an array filled with 9 null statements
+
+![[Pasted image 20230123085329.png]]
+Next we need to pass the value prop down to each of the square components it renders
+
+![[Pasted image 20230123085924.png]]
+
+Next we'll be passing functionality FROM the `Board()` parent component to the `Square()` child component that handles clicks since we had to take out that funcitonality from the squares component
+
+We are now giving our `<button>` element an `onClick` function of `onSquareClick`, then adding it as a deconstructed prop after `value` 
+
+Next we add the function `handleClick` in the `Board()` component
+
+Lastly we are are putting a prop inside of our `<Square />` component call as `onSquareClick={ handleClick }` What's happening here is we're telling the `Square()` component to call the `handleClick` function inside of Board and passing it back to `Square` 
+
+![[Pasted image 20230123093205.png]]
+to finish creating the clicking functionality in the `Board()` component we need to update a few things 
+
+Firstly we need to pass in `i` into the handleClick function and `nextSquares[i] = 'X'` 
+Next we'll need to add an arrow function that points to the function indicating which part of the array we're trying to update.
+
+```javascript
+function handleClick(i) {
+	const nextSquares = squares.slice();
+	nextSquares[i] = 'X';
+	setSquares(nextSquares);
+}
+
+return (
+	<>
+		<div className="board-row">
+			<Square value = {squares[0]} onSquareClick={() => handleClick(0)} />
+		...
+		</div>
+	</>
+)
+```
+
+the reason we need the arrow function inside the `{ }` is because without the arrow function we are not *Calling* the function we are passing it down as a prop and it gets run too quick and creates an infinite loop and causes errors.
+
+With the arrow function it allows us to only call the `handleClick` function when the user actually clicks *instead of calling it immediately*
+
+## In short we need if we're passing the prop to the Square component we need to pass the prop (which in this case is onSquareClick) and use an arrow function to allow the user to actually click on the item and have it do what we want
+
+![[Pasted image 20230123103819.png]]
+![[Pasted image 20230123103841.png]]
+![[Pasted image 20230123103906.png]]
+
+## Great explanation of what's going on in the above picture
+
+Now that your state handling is in the `Board` component, the parent `Board` component passes props to the child `Square` components so that they can be displayed correctly. When clicking on a `Square`, the child `Square` component now asks the parent `Board` component to update the state of the board. When the `Board`’s state changes, both the `Board` component and every child `Square` component re-renders automatically. Keeping the state of all squares in the `Board` component will allow it to determine the winner in the future.
+
+# Why Immutability is Important
+
+There are generally two approaches to changing data. 
+
+The first approach is to _mutate_ the data by directly changing the data’s values. The second approach is to replace the data with a new copy which has the desired changes. Here is what it would look like if you mutated the `squares` array:
+
+```javascript
+const squares = [null, null, null, null, null, null, null, null, null];
+squares[0] = 'X';// Now `squares` is ["X", null, null, null, null, null, null, null, null];
+```
+
+And here is what it would look like if you changed data without mutating the `squares` array:
+
+```javascript
+const squares = [null, null, null, null, null, null, null, null, null];
+const nextSquares = ['X', null, null, null, null, null, null, null, null];// Now `squares` is unchanged, but `nextSquares` first element is 'X' rather than `null`
+```
+
+Immutability makes complex features much easier to implement.
+
