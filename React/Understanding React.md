@@ -124,6 +124,7 @@ the best approach is to store the game’s state in the parent `Board` component
 What we'll do is add the state to the `Board()` component with an array filled with 9 null statements
 
 ![[Pasted image 20230123085329.png]]
+
 Next we need to pass the value prop down to each of the square components it renders
 
 ![[Pasted image 20230123085924.png]]
