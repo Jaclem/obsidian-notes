@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e59f0812520ac6a8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "React/Lifting up state.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ab4da4e678930cf6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "React/Removing Boilerplate Files.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "e3e8110bdce9bc92",
             "type": "leaf",
             "state": {
@@ -42,9 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "29b921aa3607a4fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "React/Atomic Design.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/Objects/Destructuring Assignment.md",
+                "file": "React/Atomic Design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/Objects/Destructuring Assignment.md",
+                "file": "React/Atomic Design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/Objects/Destructuring Assignment.md"
+                "file": "React/Atomic Design.md"
               }
             }
           }
@@ -171,17 +159,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e3e8110bdce9bc92",
+  "active": "29b921aa3607a4fb",
   "lastOpenFiles": [
+    "Images/Pasted image 20230129125518.png",
+    "React/Conditional Rendering.md",
+    "JavaScript/Objects/Destructuring Assignment.md",
     "React/Removing Boilerplate Files.md",
     "React/render().md",
     "React/Understanding create-react-app.md",
     "React/Understanding React.md",
     "React/Variables.md",
     "conflict-files-obsidian-git.md",
-    "React/Lifting up state.md",
-    "React/Push items to State Array.md",
-    "JavaScript/Arrays/Array Methods.md",
-    "React/Getting Started.md"
+    "React/Lifting up state.md"
   ]
 }
