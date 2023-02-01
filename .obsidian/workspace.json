@@ -4,47 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "408be532ee0fe990",
+        "id": "f79799ed367a20ae",
         "type": "tabs",
         "children": [
           {
-            "id": "f2e1a9810b48cebb",
+            "id": "4ee08a326224c928",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/Dynamic App/Mapping over data.md",
+                "file": "React/Props/Spread Operator.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "fbf6fe3dac0ebea0",
+            "id": "51dc1ace0adc4a13",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/Props/Passing Object as Prop.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "de77ae6ec54e950c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "React/Props/Passing Object as Prop.md",
+                "file": "JavaScript/Objects/Objects.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React/Props/Passing Object as Prop.md",
+                "file": "JavaScript/Objects/Objects.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React/Props/Passing Object as Prop.md",
+                "file": "JavaScript/Objects/Objects.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React/Props/Passing Object as Prop.md"
+                "file": "JavaScript/Objects/Objects.md"
               }
             }
           }
@@ -171,17 +159,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "de77ae6ec54e950c",
+  "active": "51dc1ace0adc4a13",
   "lastOpenFiles": [
+    "JavaScript/Objects/Object Methods.md",
+    "React/Props/Passing Object as Prop.md",
+    "React/Event Listeners/List of Event Listeners.md",
+    "React/Props/Spread Operator.md",
     "React/Dynamic App/Mapping over data.md",
     "React/Dynamic App/Lifting up state.md",
-    "React/Props/Passing Object as Prop.md",
-    "React/Props/Spread Operator.md",
     "React/Getting Started.md",
     "React/Atomic Design.md",
     "React/Defining Components.md",
-    "React/Understanding React.md",
-    "React/Variables.md",
-    "React/Understanding create-react-app.md"
+    "React/Understanding React.md"
   ]
 }
