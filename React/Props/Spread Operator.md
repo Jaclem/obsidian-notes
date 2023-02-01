@@ -3,11 +3,19 @@ One other very important part of this is the `spread operator` as seen below.
 A lot of times real React developers will use the spread syntax to bring in their Object
 
 ```javascript 
-const parsedData = data.map((info) => {
-	return <Card
-		{...item} // This is the spread syntax
-	/>
-})
+export default function App() {
+	const parsedData = data.map((info) => {
+		return <Card
+			key={item.id}
+			{...item} // This is the spread syntax
+		/>
+	})
+
+	return (
+		{parsedData}
+	)
+}
+
 ```
 
 ## What this does:

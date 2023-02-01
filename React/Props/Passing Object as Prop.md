@@ -1,16 +1,23 @@
 As we can see below our `<Card` props are getting a bit out of control, to fix this we can pass just the `item` object to grab all the information and use it in our component as needed
 
-```javascript 
-const parsedData = data.map((info) => {
-	return <Card
-		img={info.coverImg}
-		rating={info.stats.rating}
-		reviewCount={info.stats.reviewCount}
-		location={info.location}
-		title={info.title}
-		price={info.price}
-	/>
-})
+```javascript
+export default function App() {
+	const parsedData = data.map((info) => {
+		return <Card
+			img={info.coverImg}
+			rating={info.stats.rating}
+			reviewCount={info.stats.reviewCount}
+			location={info.location}
+			title={info.title}
+			price={info.price}
+		/>
+	})
+
+	return (
+		{parsedData}
+	)
+}
+
 ```
 
 The way we can do this is by removing all props and creating a prop called `item={item}`
