@@ -8,27 +8,42 @@
         "type": "tabs",
         "children": [
           {
-            "id": "29b921aa3607a4fb",
+            "id": "f7b556de78353d56",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": ".obsidian/workspace.json",
+                "staged": false
+              }
+            }
+          },
+          {
+            "id": "036d8a20ec5f0255",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Allow Client to Edit Website.md",
+                "file": "React/Event Listeners/List of Event Listeners.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "7e9c9e8f0728abb0",
+            "id": "ad5393bdd56ebf01",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,6 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,6 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,15 +148,25 @@
             "type": "leaf",
             "state": {
               "type": "outline",
+              "state": {
+                "file": "conflict-files-obsidian-git.md"
+              }
+            }
+          },
+          {
+            "id": "5a169677279f5268",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -151,17 +178,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7e9c9e8f0728abb0",
+  "active": "ad5393bdd56ebf01",
   "lastOpenFiles": [
+    "React/Event Listeners/List of Event Listeners.md",
+    "conflict-files-obsidian-git.md",
     "Untitled.md",
     "Allow Client to Edit Website.md",
     "React/Atomic Design.md",
-    "conflict-files-obsidian-git.md",
     "React/Defining Components.md",
     "Images/Pasted image 20230129125518.png",
     "React/Conditional Rendering.md",
     "JavaScript/Objects/Destructuring Assignment.md",
-    "React/Removing Boilerplate Files.md",
-    "React/render().md"
+    "React/Removing Boilerplate Files.md"
   ]
 }
