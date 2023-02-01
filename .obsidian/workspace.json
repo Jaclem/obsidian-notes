@@ -26,12 +26,24 @@
               "type": "diff-view",
               "state": {
                 "file": ".obsidian/workspace.json",
-                "staged": false
+                "staged": true
+              }
+            }
+          },
+          {
+            "id": "97ec077ebd50d8d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "React/State/Test.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -97,6 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "React/State/Test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "React/State/Test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +148,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "React/State/Test.md"
+              }
             }
           },
           {
@@ -162,7 +178,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "51dc1ace0adc4a13",
+  "active": "97ec077ebd50d8d1",
   "lastOpenFiles": [
     "React/Props/Passing Object as Prop.md",
     "conflict-files-obsidian-git.md",
