@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/Objects/Objects.md",
+                "file": "React/Props/Passing Object as Prop.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/Objects/Objects.md",
+                "file": "React/Props/Passing Object as Prop.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/Objects/Objects.md",
+                "file": "React/Props/Passing Object as Prop.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/Objects/Objects.md"
+                "file": "React/Props/Passing Object as Prop.md"
               }
             }
           }
@@ -161,15 +161,15 @@
   },
   "active": "51dc1ace0adc4a13",
   "lastOpenFiles": [
+    "JavaScript/Objects/Getters and Setters.md",
+    "JavaScript/Objects/IIFE.md",
     "JavaScript/Objects/Object Methods.md",
+    "JavaScript/Objects/Prototype Objects.md",
+    "JavaScript/Objects/Objects.md",
     "React/Props/Passing Object as Prop.md",
     "React/Event Listeners/List of Event Listeners.md",
     "React/Props/Spread Operator.md",
     "React/Dynamic App/Mapping over data.md",
-    "React/Dynamic App/Lifting up state.md",
-    "React/Getting Started.md",
-    "React/Atomic Design.md",
-    "React/Defining Components.md",
-    "React/Understanding React.md"
+    "React/Dynamic App/Lifting up state.md"
   ]
 }
