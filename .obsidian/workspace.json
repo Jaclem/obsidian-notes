@@ -23,11 +23,10 @@
             "id": "51dc1ace0adc4a13",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "React/Props/Passing Object as Prop.md",
-                "mode": "source",
-                "source": false
+                "file": ".obsidian/workspace.json",
+                "staged": false
               }
             }
           }
@@ -98,7 +97,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React/Props/Passing Object as Prop.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +113,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React/Props/Passing Object as Prop.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,17 +134,23 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "React/Props/Passing Object as Prop.md"
-              }
+              "state": {}
+            }
+          },
+          {
+            "id": "0a2cc57b947d7cd7",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -161,8 +164,8 @@
   },
   "active": "51dc1ace0adc4a13",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "React/Props/Passing Object as Prop.md",
+    "conflict-files-obsidian-git.md",
     "JavaScript/Objects/Getters and Setters.md",
     "JavaScript/Objects/IIFE.md",
     "JavaScript/Objects/Object Methods.md",
