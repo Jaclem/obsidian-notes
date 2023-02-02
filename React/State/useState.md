@@ -14,7 +14,7 @@ export default function App() {
 		<div className="state">
 			<h1 className="state--title">Is state important to know?</h1>
 			<div className="state--value">
-				<h1>{isImportant}</h1>
+				<h1>{test}</h1>
 			</div>
 		</div>
 	)
@@ -61,3 +61,69 @@ const [count, setCount] = React.useState(0)
 
 Another way to understand this in case we're having a hard time is to set the `prevCount` to `currentVal` to let us know that we are updating the **Current Value** of state.
 
+==Important Note==
+If you do not care about the previous value in state such as if `React.useState("")` has an empty string like it does in this example we can update state directly by just calling `setTest("New Value")` without using the `prevCount` syntax
+
+---
+## Updating State Array
+
+In React we have to go about updating our array differently then we would normally in JavaScript
+
+In the below example our program is adding `Thing 3, etc.` when a button is clicked
+
+How we do this is by targeting our previous value of state which is seen as `prevThingsArray` and using the `...` spread operator to spread in the existing array
+
+This allows us to target everything that is already in the array
+
+We then add a comma to denote that we're adding a new item to the array
+
+```javascript
+function App() {
+
+	const [thingsArray, setThingsArray] = React.useState(["Thing 1", "Thing 2"])
+	
+	function addItem() {
+	
+	setThingsArray(prevThingsArray => {
+		// ...prevThingsArray targets the existing elements while
+		// `Thing ${prevThingsArray.length + 1}` adds a new item to the array 
+		// while adding 1 to the length
+		return [...prevThingsArray, `Thing ${prevThingsArray.length + 1}`]
+	})
+
+}
+```
+
+---
+## Updating State Object
+
+In the below example we have a stateful object called `contact` and a boolean value inside called `isFavorite` set to true
+
+in order for us to change this value *(in our case if a button is clicked)* is to use our `setContact` function and target the previous state of state using `prevContact` and return an object
+
+Here what we're doing is using a spread operator to get all the contents of the object that are **NOT** going to change and then targeting the one object that is changing I.E `isFavorite` and telling the object that we want the opposite of what the boolean value currently is when clicking on it.
+
+```javascript
+export default function App() {
+
+	const [contact, setContact] = React.useState({
+		firstName: "John",
+		lastName: "Doe",
+		phone: "+1 (719) 555-1212",
+		email: "itsmyrealname@example.com",
+		isFavorite: false
+	})
+	
+	let starIcon = contact.isFavorite ? "star-filled.png" : "star-empty.png"
+	
+	function toggleFavorite() {
+
+		setContact(prevContact => {
+			return {
+				...prevContact,
+				isFavorite: !prevContact.isFavorite
+			}
+		})
+	}
+}
+```

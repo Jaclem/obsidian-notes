@@ -11,8 +11,12 @@
             "id": "f6a4335555760743",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "React/State/useState.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "React/State/useState.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "React/State/useState.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "React/State/useState.md"
+              }
             }
           },
           {
@@ -134,7 +142,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -148,15 +157,15 @@
   },
   "active": "f6a4335555760743",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "React/State/useState.md",
-    "React/State/Test.md",
     "React/Props/Passing Object as Prop.md",
-    "JavaScript/Objects/Getters and Setters.md",
-    "JavaScript/Objects/IIFE.md",
-    "JavaScript/Objects/Object Methods.md",
-    "JavaScript/Objects/Prototype Objects.md",
-    "JavaScript/Objects/Objects.md",
-    "React/Event Listeners/List of Event Listeners.md"
+    "React/State/useState.md",
+    "React/Getting Started.md",
+    "React/Understanding React.md",
+    "React/Conditional Rendering/Conditional Rendering.md",
+    "React/Variables.md",
+    "React/Understanding create-react-app.md",
+    "React/Defining Components.md",
+    "React/Atomic Design.md",
+    "conflict-files-obsidian-git.md"
   ]
 }
