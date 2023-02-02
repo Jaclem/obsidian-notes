@@ -8,28 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f7b556de78353d56",
-            "type": "leaf",
-            "state": {
-              "type": "diff-view",
-              "state": {
-                "file": ".obsidian/workspace.json",
-                "staged": false
-              }
-            }
-          },
-          {
-            "id": "036d8a20ec5f0255",
-            "type": "leaf",
-            "state": {
-              "type": "diff-view",
-              "state": {
-                "file": ".obsidian/workspace.json",
-                "staged": false
-              }
-            }
-          },
-          {
             "id": "8de29e745965b3ac",
             "type": "leaf",
             "state": {
@@ -41,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -178,7 +155,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8de29e745965b3ac",
+  "active": "5a169677279f5268",
   "lastOpenFiles": [
     "React/Event Listeners/List of Event Listeners.md",
     "React/Props/Passing Object as Prop.md",
