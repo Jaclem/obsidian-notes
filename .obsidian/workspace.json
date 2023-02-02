@@ -4,46 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "f79799ed367a20ae",
+        "id": "7292a2836f96ddf2",
         "type": "tabs",
         "children": [
           {
-            "id": "4ee08a326224c928",
+            "id": "f6a4335555760743",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "React/Props/Spread Operator.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "51dc1ace0adc4a13",
-            "type": "leaf",
-            "state": {
-              "type": "diff-view",
-              "state": {
-                "file": ".obsidian/workspace.json",
-                "staged": true
-              }
-            }
-          },
-          {
-            "id": "97ec077ebd50d8d1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "React/State/Test.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React/State/Test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React/State/Test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "React/State/Test.md"
-              }
+              "state": {}
             }
           },
           {
@@ -166,7 +134,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -178,8 +147,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "97ec077ebd50d8d1",
+  "active": "f6a4335555760743",
   "lastOpenFiles": [
+    "React/State/Test.md",
     "React/Props/Passing Object as Prop.md",
     "conflict-files-obsidian-git.md",
     "JavaScript/Objects/Getters and Setters.md",
@@ -188,7 +158,6 @@
     "JavaScript/Objects/Prototype Objects.md",
     "JavaScript/Objects/Objects.md",
     "React/Event Listeners/List of Event Listeners.md",
-    "React/Props/Spread Operator.md",
-    "React/Dynamic App/Mapping over data.md"
+    "React/Props/Spread Operator.md"
   ]
 }
