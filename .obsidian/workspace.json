@@ -134,8 +134,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -149,15 +148,15 @@
   },
   "active": "f6a4335555760743",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "React/State/useState.md",
     "React/State/Test.md",
     "React/Props/Passing Object as Prop.md",
-    "conflict-files-obsidian-git.md",
     "JavaScript/Objects/Getters and Setters.md",
     "JavaScript/Objects/IIFE.md",
     "JavaScript/Objects/Object Methods.md",
     "JavaScript/Objects/Prototype Objects.md",
     "JavaScript/Objects/Objects.md",
-    "React/Event Listeners/List of Event Listeners.md",
-    "React/Props/Spread Operator.md"
+    "React/Event Listeners/List of Event Listeners.md"
   ]
 }
