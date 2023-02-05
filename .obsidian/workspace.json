@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "7292a2836f96ddf2",
+        "id": "408be532ee0fe990",
         "type": "tabs",
         "children": [
           {
-            "id": "f6a4335555760743",
+            "id": "2fff7cc16a494d60",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/State/useState.md",
+                "file": "React/Event Listeners/Passing Event Listeners Down.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "792cd3b3c1047d16",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "React/Event Listeners/Form Inputs.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React/State/useState.md",
+                "file": "React/Event Listeners/Form Inputs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React/State/useState.md",
+                "file": "React/Event Listeners/Form Inputs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,12 +138,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React/State/useState.md"
+                "file": "React/Event Listeners/Form Inputs.md"
               }
             }
           },
           {
-            "id": "0a2cc57b947d7cd7",
+            "id": "5a169677279f5268",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -155,17 +168,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f6a4335555760743",
+  "active": "792cd3b3c1047d16",
   "lastOpenFiles": [
-    "React/Props/Passing Object as Prop.md",
+    "React/State/State Objects.md",
     "React/State/useState.md",
-    "React/Getting Started.md",
-    "React/Understanding React.md",
+    "React/Event Listeners/Form Inputs.md",
+    "React/Event Listeners/Passing Event Listeners Down.md",
     "React/Conditional Rendering/Conditional Rendering.md",
-    "React/Variables.md",
-    "React/Understanding create-react-app.md",
-    "React/Defining Components.md",
-    "React/Atomic Design.md",
-    "conflict-files-obsidian-git.md"
+    "React/Conditional Rendering/Dynamic Styling.md",
+    "JavaScript/Variable Conventions.md",
+    "JavaScript/Constraint Validation.md",
+    "React/State/State Arrays.md",
+    "React/Dynamic App/Mapping over data.md"
   ]
 }

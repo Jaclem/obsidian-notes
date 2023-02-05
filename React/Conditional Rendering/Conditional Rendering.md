@@ -20,6 +20,9 @@ One thing we see here is that one of our lines has
 This is basically saying IF `props.setup` is a truthy value then render everything on the right side of the `&&` operator.
 IF it is a falsy value then do nothing.
 
+NOTE: A quick understanding on how this works, if the statement `props.setup` is truthy JavaScript continues looking at the rest of the code written and renders it. 
+If however the statement is false JavaScript does not continue to interpret anything after the `&&` it actually stops interpretting before the `&&` 
+
 ----
  
 # Ternary Operator in JSX
@@ -69,3 +72,25 @@ export default function App() {
 	)
 }
 ```
+
+We can use ternary's in more robust ways too like rendering multiple messages
+
+In the below example we are seeing if the length of our messages array is equal to 0 and if so display the `<h1>` "You're all caught up!"
+
+If not then we can render another message that says "You have __ unread message(s)"
+
+```html
+return (
+	<div>
+		{
+			messages.length === 0 ?
+			<h1>You're all caught up!</h1> :
+			<h1>You have {messages.length} unread
+			{messages.length > 1 ? "messages" : "message"}</h1>
+		}
+	</div>
+)
+```
+
+We also have a ternary operator inside the last `<h1>` tag that checks if the length of messages is greater than 1 and if so it displays "messages" if not it displays "message"
+

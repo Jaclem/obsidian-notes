@@ -25,12 +25,22 @@ The way we can do this is by removing all props and creating a prop called `item
 ```javascript 
 const parsedData = data.map((info) => {
 	return <Card
+		key={info.id}
 		item={item}
 	/>
 })
 ```
 
 `item={item}` can also be referred to as `{...item}` if this is the case please see [[Spread Operator]]
+
+```javascript 
+const parsedData = data.map((info) => {
+	return <Card
+		key={info.id}
+		{...item}
+	/>
+})
+```
 
 Now in our *Actual* component we can target `props.item.OBJECT-NAME`.
 
