@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "408be532ee0fe990",
+        "id": "7292a2836f96ddf2",
         "type": "tabs",
         "children": [
           {
-            "id": "2fff7cc16a494d60",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "React/Event Listeners/Passing Event Listeners Down.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "792cd3b3c1047d16",
+            "id": "22a892a2850a9c48",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -143,7 +130,7 @@
             }
           },
           {
-            "id": "5a169677279f5268",
+            "id": "0a2cc57b947d7cd7",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -168,17 +155,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "792cd3b3c1047d16",
+  "active": "22a892a2850a9c48",
   "lastOpenFiles": [
-    "React/State/State Objects.md",
-    "React/State/useState.md",
-    "React/Event Listeners/Form Inputs.md",
     "React/Event Listeners/Passing Event Listeners Down.md",
-    "React/Conditional Rendering/Conditional Rendering.md",
-    "React/Conditional Rendering/Dynamic Styling.md",
-    "JavaScript/Variable Conventions.md",
-    "JavaScript/Constraint Validation.md",
-    "React/State/State Arrays.md",
-    "React/Dynamic App/Mapping over data.md"
+    "React/Event Listeners/List of Event Listeners.md",
+    "React/Event Listeners/Form Checkboxes.md",
+    "React/Event Listeners/Form Inputs.md",
+    "React/Dynamic App/Mapping over data.md",
+    "React/Dynamic App/Lifting up state.md",
+    "React/Props/Passing Object as Prop.md",
+    "React/State/State Objects.md",
+    "React/Props/Spread Operator.md",
+    "React/Variables.md"
   ]
 }
