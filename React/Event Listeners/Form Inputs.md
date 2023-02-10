@@ -56,6 +56,6 @@ This is called *Controlled Inputs* and is a big part of React on all levels but 
 ---
 ## Note:
 The spread operator is used to spread in all of the key value pairs from the previous input.
-Anything after that in `[e.target.name]` is overwriting the previous value with the new value for the state change based off of the name value of the input.
+Anything after that in `[name]` is overwriting the previous value with the new value for the state change based off of the name value of the input.
 
 ---
